@@ -50,7 +50,17 @@
 </p>
 
 ### *3.2 Ma trận user-item: Utility matrix*
-<p align="center"> <img src ="https://user-images.githubusercontent.com/74041962/116260527-f6abeb00-a7a0-11eb-91bf-90c844761920.png"width="50%"/>
-
+<p align="center"> <img src ="https://user-images.githubusercontent.com/74041962/116260527-f6abeb00-a7a0-11eb-91bf-90c844761920.png"width="40%"/>
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Đây là ma trận biểu diễn mức độ quan tâm (rating) của user với mỗi item. Ma trận này được xây dựng từ dữ liệu (1). Những ma trận này có rất nhiều các giá trị miss. Nhiệm vụ của Hệ gợi ý chính là dựa vào các ô đã có giá trị trong ma trận trên (dữ liệu thu được từ trong quá khứ), thông qua mô hình đã được xây dựng, dự đoán các ô còn trống (của user hiện hành), sau đó sắp xếp kết quả dự đoán (ví dụ, từ cao xuống thấp) và chọn ra Top-N items theo thứ tự rating giảm dần, từ đó gợi ý chúng cho người dùng.
  
 ### *3.3 Phương pháp*
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;Có 2 phương pháp gợi ý chính, thường được sử dụng để xây dựng hệ gợi ý, đó là:
+  <ul align="justify">
+    <li>Content-based Filtering: </li>
+    <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Gợi ý các item dựa vào hồ sơ (profiles) của người dùng hoặc dựa vào nội dung/thuộc tính (attributes) của những item tương tự như item mà người dùng đã chọn trong quá khứ.
+      <p align="center"> <img src ="https://user-images.githubusercontent.com/74041962/116261502-e8aa9a00-a7a1-11eb-858f-4baa8fa1b93b.png"width="50%"/>
+    <li>Collaborative Filtering: </li>
+    <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Gợi ý các items dựa trên sự tương quan (similarity) giữa các users và/hoặc items. Có thể hiểu rằng đây là cách gợi ý tới một user dựa trên những users có hành vi tương tự.
+      <p align="center"> <img src ="https://user-images.githubusercontent.com/74041962/116261512-e9dbc700-a7a1-11eb-9371-6bb5687bf870.png"width="50%"/>
+  </ul>
+  
