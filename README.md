@@ -63,6 +63,7 @@
     <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Gợi ý các items dựa trên sự tương quan (similarity) giữa các users và/hoặc items. Có thể hiểu rằng đây là cách gợi ý tới một user dựa trên những users có hành vi tương tự.
       <p align="center"> <img src ="https://user-images.githubusercontent.com/74041962/116261512-e9dbc700-a7a1-11eb-9371-6bb5687bf870.png"width="50%"/>
   </ul>
+  
 ## Tài liệu tham khảo
 &nbsp;&nbsp;&nbsp;&nbsp; 1. https://tailieu.vn/doc/luan-van-thac-si-ung-dung-he-thong-tu-van-recommender-systems-trong-linh-vuc-thuong-mai-dien-tu-1602259.html
 &nbsp;&nbsp;&nbsp;&nbsp; 2.	https://itzone.com.vn/vi/article/tim-hieu-ve-content-based-filtering-phuong-phap-goi-y-dua-theo-noi-dung-phan-1/
