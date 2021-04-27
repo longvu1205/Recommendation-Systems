@@ -65,5 +65,7 @@
   </ul>
   
 ## Tài liệu tham khảo
+
 &nbsp;&nbsp;&nbsp;&nbsp; 1. https://tailieu.vn/doc/luan-van-thac-si-ung-dung-he-thong-tu-van-recommender-systems-trong-linh-vuc-thuong-mai-dien-tu-1602259.html
+
 &nbsp;&nbsp;&nbsp;&nbsp; 2.	https://itzone.com.vn/vi/article/tim-hieu-ve-content-based-filtering-phuong-phap-goi-y-dua-theo-noi-dung-phan-1/
